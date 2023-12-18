@@ -1,0 +1,62 @@
+/* a:link{
+    color: rgb(8, 240, 39);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    font-size: 1.1em;
+}
+a:active{
+    font-size: 1.1em;
+    color: blue;
+}
+a:visited{
+    color: blueviolet;
+}
+
+
+li:nth-child(2n+1){
+    background-color: yellow;
+}
+
+
+#greeting p{
+    background-color: aqua;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+} */
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+P::first-line{
+    background-color: rgb(80, 42, 252);
+}
+p::selection{
+    color: rgb(14, 136, 14);
+    background-color: rgba(46, 46, 46, 0.459);
+}
+/* #fruit li::before{
+    content: "v";
+    color: aqua;
+} */
+#apple::after{
+    content: "🍎 ";
+}
+#banana::after{
+    content: "🍌 ";
+}
+#orange::after{
+    content: "🍊 " ;
+}
+
+
+#fruit li::marker{
+    content: "✔️  ";
+    font-size: 1.2em;
+    color: aqua;
+}

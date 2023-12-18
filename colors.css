@@ -1,0 +1,15 @@
+body{
+    background-color: slategray;
+}
+#p1{
+    color: tomato;
+}
+#p2{
+    color: rgb(204, 255, 204);
+}
+#p3{
+    color: #fff;
+}
+#p4{
+    color: rgba(001, 213, 243, 0.5);
+}

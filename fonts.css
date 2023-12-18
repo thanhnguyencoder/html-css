@@ -1,0 +1,13 @@
+@font-face{
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Regular;
+}
+h1{
+    font-family: Roboto-Regular, arial;
+}
+p{
+    font-family: "Open Sans", "courier new";
+    font-size: 1 em;
+    font-weight: bold;
+    font-style: italic;
+}

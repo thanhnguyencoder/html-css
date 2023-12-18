@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+h1{
+    color: orangered;
+}
+p{
+    color:white;
+}
+/* #p1{
+    color: blueviolet;
+}
+#p2{
+    color: red;
+}
+#p3{
+    color: yellow;
+}
+#p4{
+    color: green;
+} */
+.odd{
+    background-color: red;
+}
+.even{
+    background-color: blue;
+}
